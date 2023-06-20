@@ -16,6 +16,14 @@
 
 ### Up and Run
 
+Create a `.env` file and copy these lines after cloning the project:
+
+```sh
+# .env file
+CELERY_BROKER_URL=redis://celerybackend:6379/0
+CELERY_RESULT_BACKEND=redis://celerybackend:6379/0
+```
+
 ```sh
 git clone https://github.com/shahnawaz-pabon/celery-with-fastapi.git
 cd celery-with-fastapi

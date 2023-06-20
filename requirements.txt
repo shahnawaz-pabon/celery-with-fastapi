@@ -2,3 +2,4 @@ fastapi
 celery
 redis
 flower
+uvicorn
