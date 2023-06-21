@@ -30,6 +30,8 @@ cd celery-with-fastapi
 docker-compose up --build
 ```
 
+You'll be able to see the backend project running at [http://0.0.0.0:8001/](http://0.0.0.0:8001/) and the flower dashboard running at [http://0.0.0.0:5556/](http://0.0.0.0:5556/)
+
 ### Trigger a task
 
 Open a terminal and trigger a new task
